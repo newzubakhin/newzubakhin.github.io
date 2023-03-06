@@ -1,13 +1,19 @@
 baseURL: https://damngood.dev/
 languageCode: en-us
-title: EZ notes
+title: Damn Good Software Notes
+paginate: 8
 theme: "PaperMod"
 
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
 params:
-  title: EZ blog
-  description: "My toughts about IT"
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Evgeniy Zubakhin
+  title: Damn Good Software Notes
+  # description: "My toughts about IT"
+  keywords: [Blog, CS, Java, Spring, Kotlin]
+  author: Evgeny Zubakhin
   DateFormat: "02.01.2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -28,12 +34,17 @@ params:
   showtoc: false
   tocopen: false
   homeInfoParams:
-      Content: >
-          Welcome to demo of hugo's theme PaperMod.
-          - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
-          - Do give a 🌟 on Github !
-          - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
-
+    Content: >
+        Hello. I'm Evgeny, a software engineer in the town of N.
+        I mostly code in Java/Kotlin, like SQL, modern unix tools, and (neo)vim.
+        There will be my thoughts on software and CS.
+  socialIcons:
+    - name: "email"
+      url: "mailto:newzubakhin@gmail.com"
+    - name: "github"
+      url: "https://github.com/newzubakhin"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/newzubakhin/"
 menu:
   main:
     - identifier: categories
