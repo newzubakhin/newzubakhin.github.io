@@ -1,0 +1,46 @@
+baseURL: https://newzubakhin.github.io/
+languageCode: en-us
+title: EZ notes
+theme: "PaperMod"
+
+params:
+  title: EZ blog
+  description: "My toughts about IT"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: Evgeniy Zubakhin
+  DateFormat: "02.01.2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: false
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: false
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+  homeInfoParams:
+      Content: >
+          Welcome to demo of hugo's theme PaperMod.
+          - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
+          - Do give a 🌟 on Github !
+          - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
+
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
